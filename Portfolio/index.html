@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammad Butt Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Ensure this path is correct -->
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navbar -->
+    <header class="bg-white shadow-lg fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">HAMMAD BUTT PORTFOLIO</h1>
+            <nav class="flex items-center">
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">Services</a></li>
+                </ul>
+                <a href="#" class="ml-6 px-4 py-2 border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-20"> <!-- Adjust the padding-top value as needed -->
+        <!-- Hero Section -->
+        <section class="relative h-screen bg-cover bg-center" style="background-image: url('Hello.jpg'); background-attachment: fixed; filter: brightness(1.2);">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative container mx-auto px-4 py-24 flex flex-col justify-center items-start h-full">
+                <h2 class="text-5xl font-bold text-white mb-4">Hammad Butt Portfolio</h2>
+                <p class="text-lg text-white mb-8">Showcasing the skills and projects of Hammad Butt, a dedicated front-end developer.</p>
+                <a href="#" class="px-6 py-3 bg-green-500 text-white font-bold hover:bg-green-600 transition">View Services</a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="container mx-auto px-4 py-16 flex flex-col md:flex-row items-stretch">
+            <!-- Text Column -->
+            <div class="md:w-1/2 mb-8 md:mb-0 flex flex-col justify-center">
+                <h3 class="text-green-600 font-bold text-sm mb-2">MEET HAMMAD BUTT</h3>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">A passionate front-end developer</h2>
+                <p class="text-gray-700 mb-6">
+                    Hammad Butt is a dedicated front-end developer based in Lahore. With a strong foundation in web technologies, he transforms ideas into engaging digital experiences. His passion for coding and design shines through in every project, ensuring that clients receive not just functional websites, but visually stunning creations that communicate their brand ethos. Hammad is committed to staying updated with the latest industry trends to deliver innovative solutions that exceed expectations.
+                </p>
+                <a href="#" class="text-green-600 font-bold hover:underline">Get in touch</a>
+            </div>
+            <!-- Image Column -->
+            <div class="md:w-1/2 flex items-center">
+                <img src="Hello 1.jpg" alt="Laptop with a code snippet" class="rounded-lg shadow-lg object-cover small-image">
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="bg-gray-50 py-16">
+            <div class="container mx-auto px-4">
+                <!-- Section Title -->
+                <h3 class="text-green-600 font-bold text-sm mb-2">WHAT I OFFER</h3>
+                <h2 class="text-3xl font-bold text-gray-900 mb-10">Expertise in web development</h2>
+
+                <!-- Services Grid -->
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://unsplash.com/photos/yEtke72nA-Q/download?force=true&w=640" alt="Responsive web design" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Responsive web design &rarr;</h3>
+                            <p class="text-gray-700">Craft stunning websites that look great on any device.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://unsplash.com/photos/tZc3vjPCk-Q/download?force=true&w=640" alt="JavaScript development" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">JavaScript development &rarr;</h3>
+                            <p class="text-gray-700">Bring your website to life with interactive features.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://unsplash.com/photos/-r5KSMkyoSc/download?force=true&w=640" alt="UI/UX design" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">UI/UX design &rarr;</h3>
+                            <p class="text-gray-700">Enhance user satisfaction with intuitive designs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

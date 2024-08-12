@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+header {
+    background-color: white; /* Ensure background is set */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+main {
+    padding-top: 80px; /* Adjust this value based on your header height */
+}
+
+section {
+    background-attachment: fixed; /* Keep the background image fixed */
+    background-size: cover;
+    background-position: center;
+}
+
+.Image img {
+    height: auto;
+    width: 100px; /* Adjust the width as needed */
+    object-fit: contain;
+}
